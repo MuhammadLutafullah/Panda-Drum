@@ -1,0 +1,396 @@
+/* =============================
+       Basic CSS Style
+================================ */
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+.container-fluid {
+  padding: 0 45px;
+}
+
+/* ============================
+     Slider CSS Start Here
+=============================== */
+
+.main {
+  background-color: rgba(255, 255, 255, 1);
+  max-width: 390px;
+  margin: 0 auto;
+  padding: 30px 15px;
+}
+.slider {
+  padding-bottom: 33px;
+}
+.progress {
+  background: rgba(217, 217, 217, 1) !important;
+}
+
+.bg-success {
+  background-color: rgba(61, 157, 61, 1) !important;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.heading {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 25px;
+  color: rgba(44, 66, 55, 1);
+  font-family: "Futura ";
+}
+.swiper-button-next {
+  color: #000;
+}
+.swiper-button-prev {
+  color: #000;
+}
+
+.subheading {
+  font-weight: 700;
+  margin-bottom: 3px;
+  font-family: "ProximaNova";
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.step-text {
+  margin-bottom: 6px;
+  padding-top: 3px;
+  font-family: "ProximaNova";
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+
+.progress {
+  height: 7px;
+  width: 216px;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.swiper-slide img {
+  height: auto;
+  border: 1px solid rgba(136, 136, 136, 1);
+  border-radius: 8px;
+  width: 100%;
+  padding: 0px 23px;
+  padding-top: 10px;
+}
+.swiper-button-prev {
+  left: 0px !important;
+}
+.swiper-button-prev:after {
+  content: "" !important;
+  background-image: url(./img/slider-icon.svg) !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 15px;
+}
+
+.swiper-button-next {
+  right: 0px !important;
+}
+.swiper-button-next:after {
+  content: "" !important;
+  background-image: url(./img/slider-icon.svg) !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 15px;
+  rotate: 180deg;
+}
+.color-title {
+  margin-top: 13px;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: rgba(136, 136, 136, 1);
+  text-align: start;
+  font-family: "ProximaNova";
+}
+
+.color-option {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.color-option img {
+  width: 68px;
+  height: 68px;
+  object-fit: contain;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  transition: all 0.3s ease;
+}
+
+.color-option img.active {
+  border: 1px solid rgba(136, 136, 136, 1);
+}
+
+/* ============================
+     Tabs CSS Start Here
+=============================== */
+
+.tab-heading {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: rgba(136, 136, 136, 1);
+  text-align: start;
+  font-family: "ProximaNova";
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0px 8px;
+}
+
+.nav-link.active {
+  width: 50%;
+  background-color: #f2efeb !important;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 700;
+
+  border: 1px solid rgba(0, 0, 0, 0.5) !important;
+  border-bottom: none !important;
+}
+
+input[type="radio"] {
+  accent-color: rgba(52, 168, 83, 1);
+}
+
+.tab-name {
+  color: rgba(136, 136, 136, 1);
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.nav-link.active .tab-name {
+  color: rgba(44, 66, 55, 1) !important;
+}
+.nav-link {
+  padding: 4px 8px !important;
+  width: 50%;
+}
+.row {
+  --bs-gutter-x: 0 !important;
+}
+div#nav-tab {
+  display: flex;
+  gap: 4px;
+  flex-wrap: nowrap;
+}
+.nav-tabs .nav-link {
+  border: 1px dashed rgba(198, 198, 198, 1);
+  border-radius: 8px 8px 0px 0px;
+}
+.nav-tabs .nav-link:hover {
+  border: 1px dashed rgba(198, 198, 198, 1);
+}
+div#nav-tabContent {
+  background-color: #f2efeb;
+  border-radius: 0 0 8px 8px;
+  padding: 8px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5) !important;
+  border-top: none !important;
+}
+.nav-tabs .nav-link {
+  border: 1px dashed #c6c6c6;
+  border-radius: 8px 8px 0 0;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(136, 136, 136, 1);
+  font-weight: 700;
+}
+.action-inr {
+  background: rgba(8, 127, 38, 1);
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 700;
+  margin-top: 33px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+p.bg-offwhite {
+  padding: 3px 10px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+}
+.bg-offwhite i {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  font-family: "ProximaNova";
+}
+.pre-price {
+  text-decoration: line-through;
+  color: rgba(33, 37, 41, 1);
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.new-price {
+  color: rgba(61, 157, 61, 1);
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  font-family: "ProximaNova";
+}
+.right_side {
+  display: flex;
+  gap: 5px;
+}
+.left-side {
+}
+.ul-tabs {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.li-tabs {
+  background: rgba(255, 255, 255, 1);
+  padding: 3px 5px;
+  border-radius: 8px;
+  text-align: center;
+}
+.li-tabs p {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "ProximaNova";
+}
+.tab_inr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_inr img {
+  width: 16.5px;
+  height: 11px;
+}
+
+.gift-box-otr {
+  display: flex;
+  align-items: center;
+  gap: 0px 4px;
+}
+.gift-row {
+  display: flex;
+  gap: 19px 13px;
+  flex-wrap: wrap;
+}
+.gift-img {
+  height: 74px;
+  width: 74px;
+}
+.gifts-desc {
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "ProximaNova";
+  font-weight: 400;
+  color: rgba(136, 136, 136, 1);
+  padding-bottom: 3px;
+  padding-top: 30px;
+}
+.gift-heading {
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "ProximaNova";
+  font-weight: 400;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.gift-price {
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "ProximaNova";
+  font-weight: 400;
+  color: rgba(185, 38, 90, 1);
+  text-decoration: line-through;
+}
+.free-gift {
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "ProximaNova";
+  font-weight: 400;
+  color: rgba(61, 157, 61, 1);
+}
+
+.gift-detail-otr {
+  padding-top: 31px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0px;
+}
+
+.gift-detail {
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "ProximaNova";
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+
+.gift-bold-detail {
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "ProximaNova";
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+}

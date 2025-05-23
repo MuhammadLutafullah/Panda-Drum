@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "ProximaNova";
+  src: url("./ProximaNova-Regular.eot");
+  src: url("./ProximaNova-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./ProximaNova-Regular.woff2") format("woff2"),
+    url("./ProximaNova-Regular.woff") format("woff"),
+    url("./ProximaNova-Regular.ttf") format("truetype"),
+    url("./ProximaNova-Regular.svg#ProximaNova-Regular") format("svg");
+}
+
+@font-face {
+  font-family: "Futura ";
+  src: url("./FuturaCyrillic-Bold.eot");
+  src: url("./FuturaCyrillic-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./FuturaCyrillic-Bold.woff2") format("woff2"),
+    url("./FuturaCyrillic-Bold.woff") format("woff"),
+    url("./FuturaCyrillic-Bold.ttf") format("truetype"),
+    url("./FuturaCyrillic-Bold.svg#FuturaCyrillic-Bold") format("svg");
+}

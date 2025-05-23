@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panda Drum</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./Fonts/fonts.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <!--==================================
+            Slider Start Here
+      ===================================-->
+      <section class="slider">
+        <div class="wrapper">
+          <h4 class="heading">Get Your Panda Drum®</h4>
+          <p class="subheading">Customize your instrument</p>
+          <div class="progress">
+            <div
+              class="progress-bar bg-success"
+              style="width: 50%"
+              role="progressbar"
+            ></div>
+          </div>
+          <p class="step-text">1 of 2</p>
+        </div>
+        <div class="row">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide text-center">
+                <img src="./img/slider-img-1.png" alt="White Drum" />
+              </div>
+              <div class="swiper-slide text-center">
+                <img src="./img/slider-img-1.png" alt="White Drum" />
+              </div>
+              <div class="swiper-slide text-center">
+                <img src="./img/slider-img-1.png" alt="White Drum" />
+              </div>
+              <div class="swiper-slide text-center">
+                <img src="./img/slider-img-1.png" alt="White Drum" />
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="text-center swiper-nav">
+            <p class="color-title">Choose your color</p>
+            <div class="color-option">
+              <img src="./img/IMG_0703.jpg" data-slide="0" alt="White" />
+              <img src="./img/IMG_0699.jpg" data-slide="1" alt="Blue" />
+              <img src="./img/black Pro 1.jpg" data-slide="2" alt="Black" />
+              <img src="./img/sandstone pro 1.jpg" data-slide="3" alt="Gold" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--==================================
+            Slider End Here
+      ===================================-->
+
+      <!--==================================
+            Tabs Start Here
+      ===================================-->
+      <div class="section_tab">
+        <p class="tab-heading">Choose your model</p>
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button
+              class="nav-link active"
+              id="nav-home-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-home"
+              type="button"
+              role="tab"
+              aria-controls="nav-home"
+              aria-selected="true"
+            >
+              <input type="radio" name="drum-type" id="pro-tab" checked />
+              <p class="tab-name">Panda Drum® Pro</p>
+            </button>
+            <button
+              class="nav-link"
+              id="nav-profile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-profile"
+              type="button"
+              role="tab"
+              aria-controls="nav-profile"
+              aria-selected="false"
+            >
+              <input
+                type="radio"
+                name="drum-type"
+                id="plus-tab"
+                class="highlighted"
+              />
+              <p class="tab-name">Panda Drum® Plus</p>
+            </button>
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="nav-home"
+            role="tabpanel"
+            aria-labelledby="nav-home-tab"
+          >
+            <div class="tab_inr">
+              <div class="right_side">
+                <span class="pre-price">$599</span>
+                <span class="new-price">$279</span>
+              </div>
+              <div class="left-side">
+                <ul class="ul-tabs">
+                  <li class="li-tabs"><p>432 Hz</p></li>
+                  <li class="li-tabs"><p>15 note</p></li>
+                  <li class="li-tabs"><p>5 lbs</p></li>
+                  <li class="li-tabs"><p>15"</p></li>
+                </ul>
+              </div>
+            </div>
+            <div class="our-gifts">
+              <p class="gifts-desc">5 FREE Gifts Included Until Sale Ends</p>
+              <div class="gift-row">
+                <div class="gift-box-otr">
+                  <img
+                    src="./img/Frame 63.jpg"
+                    alt="Accessories"
+                    class="gift-img"
+                  />
+                  <div class="product_detail">
+                    <p class="gift-heading">Accessories</p>
+                    <p class="gift-price">$99</p>
+                    <p class="free-gift">Free</p>
+                  </div>
+                </div>
+                <div class="gift-box-otr">
+                  <img src="./img/Frame 64.jpg" class="gift-img" />
+                  <div class="product_detail">
+                    <p class="gift-heading">Tutorials</p>
+                    <p class="gift-price">$99</p>
+                    <p class="free-gift">Free</p>
+                  </div>
+                </div>
+                <div class="gift-box-otr">
+                  <img
+                    src="./img/Frame 62.jpg"
+                    alt="Music_book"
+                    class="gift-img"
+                  />
+                  <div class="product_detail">
+                    <p class="gift-heading">Music book</p>
+                    <p class="gift-price">$59</p>
+                    <p class="free-gift">Free</p>
+                  </div>
+                </div>
+                <div class="gift-box-otr">
+                  <img src="./img/Frame 65.jpg" class="gift-img" />
+                  <div class="product_detail">
+                    <p class="gift-heading">Play-along APP</p>
+                    <p class="gift-price">$39</p>
+                    <p class="free-gift">Free</p>
+                  </div>
+                </div>
+                <div class="gift-box-otr">
+                  <img src="./img/Frame 66.jpg" class="gift-img" />
+                  <div class="product_detail">
+                    <p class="gift-heading">Woven band</p>
+                    <p class="gift-price">$79</p>
+                    <p class="free-gift">Free</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gift-detail-otr">
+              <p class="gift-detail">
+                The Panda Drum Pro is our
+                <span class="gift-bold-detail">premium</span> handcrafted drum,
+                precisely tuned to the
+                <span class="gift-bold-detail">healing 432 Hz frequency</span>
+                for enhanced relaxation.
+              </p>
+              <p class="gift-detail">
+                Perfect for
+                <span class="gift-bold-detail">all ages and skill levels,</span>
+                it features our exclusive
+                <span class="gift-bold-detail">numbered note system</span> that
+                makes playing intuitive and effortless - simply
+                <span class="gift-bold-detail">match the numbers</span> to
+                create beautiful, soothing melodies.
+                <span class="gift-bold-detail">healing 432 Hz frequency</span>
+                for enhanced relaxation.
+              </p>
+              <p class="gift-detail">
+                <span class="gift-bold-detail">Difference vs Plus? </span>
+                Deeper sound, broader range of notes (15 vs 11), larger size.
+              </p>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-profile"
+            role="tabpanel"
+            aria-labelledby="nav-profile-tab"
+          >
+            <div class="tab_inr">
+              <div class="right_side">
+                <span class="pre-price">$599</span>
+                <span class="new-price">$279</span>
+              </div>
+              <div class="left-side">
+                <ul class="ul-tabs">
+                  <li class="li-tabs"><p>432 Hz</p></li>
+                  <li class="li-tabs"><p>15 note</p></li>
+                  <li class="li-tabs"><p>5 lbs</p></li>
+                  <li class="li-tabs"><p>15"</p></li>
+                </ul>
+              </div>
+            </div>
+            <div class="our-gifts">
+              <p class="gifts-desc">5 FREE Gifts Included Until Sale Ends</p>
+              <div class="gift-row">
+                <div class="gift-box-otr">
+                  <img
+                    src="./img/Frame 63.jpg"
+                    alt="Accessories"
+                    class="gift-img"
+                  />
+                  <div class="product_detail">
+                    <p class="gift-heading">Accessories</p>
+                    <p class="gift-price">$99</p>
+                    <p class="free-gift">Free</p>
+                  </div>
+                </div>
+                <div class="gift-box-otr">
+                  <img src="./img/Frame 64.jpg" class="gift-img" />
+                  <div class="product_detail">
+                    <p class="gift-heading">Tutorials</p>
+                    <p class="gift-price">$99</p>
+                    <p class="free-gift">Free</p>
+                  </div>
+                </div>
+                <div class="gift-box-otr">
+                  <img
+                    src="./img/Frame 62.jpg"
+                    alt="Music_book"
+                    class="gift-img"
+                  />
+                  <div class="product_detail">
+                    <p class="gift-heading">Music book</p>
+                    <p class="gift-price">$59</p>
+                    <p class="free-gift">Free</p>
+                  </div>
+                </div>
+                <div class="gift-box-otr">
+                  <img src="./img/Frame 65.jpg" class="gift-img" />
+                  <div class="product_detail">
+                    <p class="gift-heading">Play-along APP</p>
+                    <p class="gift-price">$39</p>
+                    <p class="free-gift">Free</p>
+                  </div>
+                </div>
+                <div class="gift-box-otr">
+                  <img src="./img/Frame 66.jpg" class="gift-img" />
+                  <div class="product_detail">
+                    <p class="gift-heading">Woven band</p>
+                    <p class="gift-price">$79</p>
+                    <p class="free-gift">Free</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gift-detail-otr">
+              <p class="gift-detail">
+                The Panda Drum Pro is our
+                <span class="gift-bold-detail">premium</span> handcrafted drum,
+                precisely tuned to the
+                <span class="gift-bold-detail">healing 432 Hz frequency</span>
+                for enhanced relaxation.
+              </p>
+              <p class="gift-detail">
+                Perfect for
+                <span class="gift-bold-detail">all ages and skill levels,</span>
+                it features our exclusive
+                <span class="gift-bold-detail">numbered note system</span> that
+                makes playing intuitive and effortless - simply
+                <span class="gift-bold-detail">match the numbers</span> to
+                create beautiful, soothing melodies.
+                <span class="gift-bold-detail">healing 432 Hz frequency</span>
+                for enhanced relaxation.
+              </p>
+              <p class="gift-detail">
+                <span class="gift-bold-detail">Difference vs Plus? </span>
+                Deeper sound, broader range of notes (15 vs 11), larger size.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="action-otr">
+          <div class="action-inr">
+            Next
+            <img src="./img/Vector 2.png" />
+          </div>
+        </div>
+      </div>
+      <!--==================================
+            Tabs End Here
+      ===================================-->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
